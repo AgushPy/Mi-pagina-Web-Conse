@@ -1,0 +1,35 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    color:white;
+   
+    
+
+}
+
+.titulo{
+    font-family: 'Lobster', cursive;
+
+}
+
+
+.container{
+    width: 60%;
+    position: relative;
+    left: 30%;
+    right: 20%;
+}
+.formu{
+    font-family: Arial;
+
+    width: 60%;
+    border: 3px solid black;
+    box-shadow:  rgba(255, 209, 2, 0.678) 6px 6px 6px 6px;
+    border-radius: 6px;
+    text-align: center;
+}

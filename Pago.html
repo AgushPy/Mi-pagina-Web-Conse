@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/pago.css">
+
+    <!--Fonts-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <br><br><br>
+    <div class="container">
+        <div class="formu">    
+                <div class="titulo">
+                    <h1>Complete su compra</h1>
+                    <p>Porfavor complete sus datos para terminar la compra</p><br><br>
+                </div>
+            <form action="">
+                Ingrese su Nombre             <br>  <input type="text">     <br><br>
+                Ingrese su apellido           <br>  <input type="text">     <br><br>
+                Ingrese su Domicilio          <br>  <input type="text">     <br><br>
+                Ingrese su codigo postal      <br>  <input type="text">     <br><br>
+                Ingrese su correo Electronico <br>  <input type="email">    <br><br>
+                Ingrese su numero de telefono <br>  <input type="number">   <br><br>
+                <p>Que tipo de envio quiere?</p>
+                <input type="checkbox" id="con">Envio a Domicilio
+                <input type="checkbox" id="sin">Sin Envio         
+            </form>
+
+            <h2>Productos a llevar:</h2>
+            <div class="productos"></div>
+
+            <input type="button" value="Pagar">
+        </div>
+    </div>
+
+
+    <script src="js/EnvioPago.js"></script>
+</body>
+</html>
